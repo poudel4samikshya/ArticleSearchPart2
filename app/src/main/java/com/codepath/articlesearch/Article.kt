@@ -12,7 +12,7 @@ data class SearchNewsResponse(
 @Serializable
 data class BaseResponse(
     @SerialName("docs")
-    val docs: List<Article>?
+    val docs: List<Article>
 )
 @Keep
 @Serializable
